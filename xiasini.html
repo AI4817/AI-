@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吓死你</title>
+    <style>
+        div{
+            color: blueviolet;
+            size: 100px;
+        
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div>陈家茵是<del>八戒</del><br>铁美人</div>
+    <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.1SYBYMoYXly3QmoeuR2zQAAAAA?w=306&h=157&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="猪八戒" title="陈家茵">
+    <hr>
+    <div><p><b>帅</b><br><b>不</b><br><b>帅</b>！</p></div>
+
+    <script>
+        //行为一
+        //当光标移动到字体上面：字体颜色变为红色
+        var div = document.querySelector("div")
+        div.onmouseover = function(){
+           div.style.color = "red";
+        }
+
+        //行为二
+        //当光标移出字体，字体颜色变为紫色
+        div.onmouseout = function(){
+           div.style.color = "blueviolet";
+        }
+
+   </script>
+    
+
+
+</body>
+</html>
